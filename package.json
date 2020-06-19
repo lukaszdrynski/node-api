@@ -1,0 +1,27 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node -r esm server.js",
+    "test": "ava"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "express": "^4.17.1"
+  },
+  "main": "index.js",
+  "module": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "ava": "^3.9.0"
+  },
+  "ava": {
+    "require": "esm"
+  },
+  "description": ""
+}
